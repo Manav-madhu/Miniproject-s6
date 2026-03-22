@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(99, 102, 241, 0.7) transparent;
+}
+
+.glass-panel {
+  @apply border border-white/10 bg-white/10 backdrop-blur-xl shadow-2xl shadow-slate-950/30;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-indigo-300 via-sky-300 to-cyan-200 bg-clip-text text-transparent;
+}
