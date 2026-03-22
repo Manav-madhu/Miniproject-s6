@@ -81,7 +81,7 @@ sudo npm install -g pm2
 
 ### Step 1: Clone the Project
 ```bash
-git clone https://your-git-host/marketshield-ai.git
+git clone https://github.com/Manav-madhu/Miniproject-s6.git
 cd marketshield-ai
 npm install
 ```
